@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hogwarts</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    
+   <div class="wrapper">
+<!--nav-->
+       <sidenav>
+           <br>
+<span style="font-size:30px;cursor:pointer;color:white;position:fixed" onclick="openNav()">&#9776;</span>
+               <a><img src="salma.jpg" class="img" alt="logo" align=middle > </a>
+           
+          <div id="mySidenav" class="sidenav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <li><a href="#home" onclick="autoclose()">HOME</a></li>
+              <li><a href="#professors" onclick="autoclose()">PROFESSORS</a></li>
+              <li><a href="#classes" onclick="autoclose()">CLASSES</a></li>
+              <li><a href="#gallery" onclick="autoclose()">GALLERY</a></li>
+              <li><a href="#sorting" onclick="autoclose()">SORTING</a></li>
+              <li><a href="#admissions" onclick="autoclose()">ADMISSIONS</a></li>
+           </div>
+           
+       </sidenav>
+       
+       <!--js-->
+       <script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+var sidebar = document.getElementById('sidebar');
+
+    function autoclose() {
+        document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+       <!--/js-->
+       
+<!--/nav-->
+       <a id="home">#home</a>
+      <div class="section">
+          <br>
+          <br>
+        <br>
+          <h1>Portfolio <br> </h1>
+          <!----img src="" align=right width="450"---->
+          <h2>Fahmina Nur Salma</h2>
+          
+          <p>More about me will be available in the webpages listed in the top right corner.</p>
+          <p>Photos of my interest will be in the Gallery page.</p>
+          <br>
+          <a href="https://www.google.com/maps/dir/1.3544501,103.8796023/platform+9%2F34/@1.638759,-34.8251179,3z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x48761b3c10d9ee25:0xcc876d3b437d7608!2m2!1d-0.1248854!2d51.5349092" target="_blank"><button class="btn-1">DIRECTIONS</button></a>
+          <i><b><h1>Meet me:</h1></b></i>
+        <p> Hi! I am Salma, a full-time graduate student at Bowie State University. Love to learn, read and live in a real but blended with dream world. Computer Science and Engineering background with a experience in C++, PHP, HTML, Oracle and SUMO. Enjoy doing cooking, taking photgraph , visiting new places and making new friends. </p>
+      </div>
+       
+       <a id="professors">#professors</a>
+       <div class="section">
+           <h1>Interests:</h1>
+          
+           <p> I am interested to learn the application of the following:.</p>
+           
+           <i><h1>Data Science: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Data_science" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p>Data science is an interdisciplinary academic field that uses statistics, scientific computing, scientific methods, processes, algorithms and systems to extract or extrapolate knowledge and insights from noisy, structured, and unstructured data. </p>
+           
+           <i><h1>Machine Learning: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Machine_learning" target="_blank"><button class="btn-1">More here</button></a></h1></i> 
+           <p>Machine learning is a field of inquiry devoted to understanding and building methods that "learn" – that is, methods that leverage data to improve performance on some set of tasks. It is seen as a part of artificial intelligence.</p>
+           
+           <i><h1>Artificial Intelligence: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p>Artificial intelligence is intelligence—perceiving, synthesizing, and inferring information—demonstrated by machines, as opposed to intelligence displayed by non-human animals and humans.</p>
+           
+           <i><h1>Natural Language Processing: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Natural_language_processing" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p> Natural language processing is an interdisciplinary subfield of linguistics, computer science, and artificial intelligence concerned with the interactions between computers and human language, in particular how to program computers to process and analyze large amounts of natural language data.</p>
+           
+           <i><h1>Photonic: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Photonics" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p>Photonics is a branch of optics that involves the application of generation, detection, and manipulation of light in form of photons through emission, transmission, modulation, signal processing, switching, amplification, and sensing. </p>
+           
+           <i><h1>Augmented reality: ‎‎‎ <a href="https://en.wikipedia.org/wiki/Augmented_reality" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p>Augmented reality is an interactive experience that combines the real world and computer-generated content. The content can span multiple sensory modalities, including visual, auditory, haptic, somatosensory and olfactory. </p>
+           
+           <i><h1>Cloud Computing:  ‎‎‎ <a href="https://en.wikipedia.org/wiki/Cloud_computing" target="_blank"><button class="btn-1">More here</button></a></h1></i>
+           <p>Cloud computing is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user. Large clouds often have functions distributed over multiple locations, each of which is a data center.</p>
+            
+      
+       </div>
+       <a id="classes">#classes</a>
+       <div class="section">
+           
+           <h1>Skills:</h1>
+           <h2>There are 7 core subjects in Hogwarts:</h2>
+           
+          <i><h1>Astronomy:</h1></i>
+           <p>Astronomy is the only field of study at Hogwarts that has a direct equivalent in the Muggle world. Astronomy classes take place in the Astronomy Tower, the tallest tower in Hogwarts, and are taught by Professor Aurora Sinistra. Lessons involve observations of the night skies with telescopes. Lessons are held every week at midnight, and first years have lessons on Wednesday. Known student homework activities include learning the names of stars, constellations and planets, and their location, movements, and environments.</p>
+           
+           <i><h1>Charms:</h1></i>
+           <p>Charms is the type of spells concerned with giving an object new and unexpected properties, and hence this class mainly consists on learning those sorts of spells. Charms classes are described as notoriously noisy and chaotic, as the lessons are largely practical.</p>
+           
+           <i><h1>Defence Against the Dark Arts:</h1></i>
+           <p>Defence Against the Dark Arts, commonly shortened to D.A.D.A., is the class that teaches students defensive techniques to defend against the Dark Arts, and to be protected from dark creatures.</p>
+
+           <p>The subject has an extraordinarily high turnover of staff members — throughout Harry Potter's time at Hogwarts, no Defence Against the Dark Arts teacher has remained at Hogwarts for more than one school year. These included Quirinus Quirrell, Gilderoy Lockhart, Remus Lupin, Bartemius Crouch Jnr impersonating Alastor "Mad-Eye" Moody, Dolores Umbridge, Severus Snape, and Amycus Carrow. Hagrid suggested that "They're startin' ter think the job's jinxed. No one's lasted long for a while now." Dumbledore suggested that Voldemort jinxed the position because his application for it was rejected. The position had also been coveted by Snape, but he was denied the position as well. Snape was finally appointed D.A.D.A. professor in 1996. After the end of the Second Wizarding War, the jinx on the position was lifted. Harry Potter would occasionally come to the class to give lectures on the subject.</p>
+           
+           <i><h1>Herbology:</h1></i>
+           <p>Herbology is the study of magical plants and how to take care of, utilise and combat them. There are at least three greenhouses, holding a variety of magical plants of varying degrees of lethality. The class is considered to be very exhausting.</p>
+           
+           <i><h1>History of Magic:</h1></i>
+           <p>History of Magic is the study of magical history. They are only lectures, given without pause, about significant events in wizarding history. Topics have included Goblin Rebellions, Giant wars, and the origins of wizarding secrecy. This is the only class at Hogwarts that is taught by a ghost, as the professor never noticed he had died and simply continued teaching as if nothing had changed.</p>
+           
+           <i><h1>Potions:</h1></i>
+           <p>Potions is described as the art of creating mixtures with magical effects. It requires the correct mixing and stirring of ingredients at the right times and temperatures. Snape's lessons are depicted as unhappy, oppressing times set in a gloomy dungeon in the basement of the castle, whilst Horace Slughorn's, who replaces Severus Snape as Potions Master, was shown as more cheerful and even fun at times.</p>
+           
+           <i><h1>Transfiguration:</h1></i>
+           <p>Transfiguration is the art of changing the form or appearance of an object, and hence this is what this class teaches. Transfiguration is a theory-based subject, including topics such as "Switching Spells" (altering only a part of some object, such as giving a human rabbit's ears); Vanishing Spells (causing an object to completely disappear); and Conjuring Spells (creating objects out of thin air). It is possible to change inanimate objects into animate ones and vice versa — Minerva McGonagall, the class's teacher, transfigured her desk into a pig. According to Minerva McGonagall "Transfiguration is some of the most dangerous magic you will be taught at Hogwarts".</p>  
+       </div>
+       
+       <a id="sorting">#sorting</a>
+       <div class="section">
+           <img src="houses.png" align=right width="300">
+           <h1>Education:</h1>
+           <p>M.Sc in Computer Science And Engineering</p>
+           <p>B.Sc in Computer Science And Engineering</p>
+           <br>
+           <a href="https://brainfall.com/quizzes/which-hogwarts-house-would-you-be-in/" target="_blank"><button class="btn-1">LETS GO</button></a>
+           
+           <br>
+           <i><H1>Experience:</H1></i>
+           <p>The Sorting Hat is a sentient hat at Hogwarts that magically determines which of the four school Houses each new student belongs most to. These four Houses are Gryffindor, Hufflepuff, Ravenclaw, and Slytherin. The Sorting Hat originally belonged to Godric Gryffindor, one of the four founders of Hogwarts. It normally stays in the Headmaster's office until it is needed.</p>
+       </div>
+       
+       <a id="admissions">#admissions</a>
+       <div class="section">
+           <h1>Contact me:</h1>
+           <h2>Email : salmaf0716@students.bowiestate.edu
+               <p> Phone: 3018603960</p></h2>
+           <p>Click below to get redirected to the form!</p>
+           <a href="https://forms.gle/FkBqxRutrExddZ4H6" target="_blank"><button class="btn-1">FORM</button></a>
+           
+            
+           
+           </div>
+       <a id="gallery">#gallery</a>
+       <div class="section">
+           <h1>GALLERY:</h1>
+           <div class="img2">
+           <img src="Computer%20Science_building.png" class="img2" alt="outsidehogwarts.jpg" width="250">
+           <img src="data-science.png" class="img2" alt="insidehogwarts.jpg" width="250">
+           <img src="Research.png" class="img2" alt="train" width="250">
+           <img src="machine_learning01.png" class="img2" alt="mail" >
+           <img src="data-science-in-marketing-post-venn-diagram.png" class="img2" alt="quidditch" height="auto">
+           <img src="AI.png" class="img2" alt="quidditch" height="auto">
+           <img src="greathall.jpg" class="img2" alt="insidehogwarts.jpg">
+               </div>
+<!--/sec-->
+   </div>
+<!--wrapped-->
+</body>
+</html>
