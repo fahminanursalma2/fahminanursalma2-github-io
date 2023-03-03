@@ -19,8 +19,6 @@ body{
     padding-right: 100px;
 }
 
-<!--copiedcode-->
-
 .container{
     width: 100%;
     padding-right: 15px;
@@ -181,7 +179,7 @@ html {
     text-align: right;
 }
 .section p{
-    color: gray;
+    color: white;
     font-size: 1.15rem
 }
 
